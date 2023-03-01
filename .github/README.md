@@ -1,5 +1,7 @@
 # AstroNvim User Configuration
 
+**Note:** This repository does require AstroNvim v3.0. Because of this, `nightly` is currently the default update channel until v3.0 is released to stable when it will be changed to using `stable` by default.
+
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder(optional)
