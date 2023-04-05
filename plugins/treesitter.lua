@@ -1,7 +1,11 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
-    -- ensure_installed = { "lua" },
+    ensure_installed = { "lua" },
+       function()
+        local actions = require "telescope.actions"
+        local get_icon = require("astronvim.utils").get_icon
+        return {
           defaults = {
             prompt_prefix = string.format("%s ", get_icon "Search"),
             selection_caret = string.format("%s ", get_icon "Selected"),
@@ -31,5 +35,10 @@ return {
             },
           },
         }
-  },
-}
+      end,
+      config = function(plugin, opts)
+        -- run the core AstroNvim configuration function with the options table
+        require("plugins.configs.telescope")(plugin, opts)
+      end,
+    },
+  }
