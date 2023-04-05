@@ -23,17 +23,6 @@ return {
       opts={},
     },
     {
-      "ggandor/lightspeed.nvim",
-      opts={
-          ignore_case = true,
-      },
-      lazy = false
-    },
-    {
-      "tpope/vim-repeat",
-      lazy = false
-    },
-    {
       'delphinus/vim-firestore',
       lazy = false
     },
