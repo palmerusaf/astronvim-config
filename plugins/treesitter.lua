@@ -1,7 +1,8 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
-    ensure_installed = { "lua" },
+    ensure_installed = { "bash","css","gitignore","html","javascript","jsdoc","json","lua","markdown","scss","tsx","typescript","yaml"
+      },
        function()
         local actions = require "telescope.actions"
         local get_icon = require("astronvim.utils").get_icon
