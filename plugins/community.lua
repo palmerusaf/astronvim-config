@@ -11,7 +11,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.editing-support.refactoring-nvim" },
+  -- { import = "astrocommunity.editing-support.refactoring-nvim" },
   { import = "astrocommunity.editing-support.treej"},
   { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.git.git-blame-nvim" },
