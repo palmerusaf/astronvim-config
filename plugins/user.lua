@@ -26,4 +26,5 @@ return {
     "delphinus/vim-firestore",
     lazy = false,
   },
+  { "daeyun/vim-matlab",           event = "BufEnter *.m" },
 }
