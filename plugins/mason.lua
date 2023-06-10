@@ -7,12 +7,13 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
-        "css-lspcssls",
-        "json-lspjsonls",
+        "html",
+        "cssls",
+        "bashls",
+        "jsonls",
         "marksman",
-        "matlab-language-server",
-        "tailwindcss-language-server",
-        "typescript-language-server",
+        "tailwindcss",
+        "tsserver",
       },
     },
   },
