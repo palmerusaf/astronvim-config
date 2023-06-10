@@ -11,6 +11,7 @@ return {
       "json",
       "lua",
       "markdown",
+      "matlab",
       "scss",
       "tsx",
       "typescript",

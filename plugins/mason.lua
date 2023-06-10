@@ -10,6 +10,7 @@ return {
         "css-lspcssls",
         "json-lspjsonls",
         "marksman",
+        "matlab-language-server",
         "tailwindcss-language-server",
         "typescript-language-server",
       },
