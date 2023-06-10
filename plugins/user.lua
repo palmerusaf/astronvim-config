@@ -24,7 +24,7 @@ return {
   },
   {
     "delphinus/vim-firestore",
-    lazy = false,
+    event = "BufEnter *.rules",
   },
   { "daeyun/vim-matlab",           event = "BufEnter *.m" },
   config = function() require "garbas/vim-snipmate" end,
