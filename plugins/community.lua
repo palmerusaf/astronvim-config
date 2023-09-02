@@ -13,15 +13,17 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
   -- { import = "astrocommunity.editing-support.refactoring-nvim" },
-  { import = "astrocommunity.editing-support.treej" },
+  -- { import = "astrocommunity.editing-support.treej" },
   { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.syntax.hlargs-nvim" },
-  {
-    "treesj",
-    opts = {
-      max_join_length = 240,
-      max_split_length = 240,
-    },
-  },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
+  -- {
+  --   "treesj",
+  --   opts = {
+  --     max_join_length = 240,
+  --     max_split_length = 240,
+  --   },
+  -- },
 }
