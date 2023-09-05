@@ -6,6 +6,11 @@
 return {
   -- first key is the mode
   n = {
+    ["<leader>x"] = {
+      require("user.customactor").code_action,
+      desc = "Apply first code action",
+    },
+
     -- second key is the lefthand side of the map
 
     -- -- navigate buffer tabs with `H` and `L`
