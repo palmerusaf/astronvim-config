@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   -- { import = "astrocommunity.editing-support.refactoring-nvim" },
   -- { import = "astrocommunity.editing-support.treej" },
-  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
