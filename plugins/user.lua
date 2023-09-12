@@ -29,4 +29,12 @@ return {
   {
     "evesdropper/luasnip-latex-snippets.nvim",
   },
+  -- edits the directory in buffer press '-' to activate
+  {
+    "stevearc/oil.nvim",
+    opts = {},
+    keys = {
+      { "-", "<cmd>Oil<cr>", mode = { "n" }, desc = "Open parent directory" },
+    },
+  },
 }
