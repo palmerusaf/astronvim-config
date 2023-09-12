@@ -7,7 +7,7 @@ return {
   -- first key is the mode
   n = {
     ["<leader>x"] = {
-      require("user.customactor").code_action,
+      require("user.quick-code-action").code_action,
       desc = "Apply first code action",
     },
 
