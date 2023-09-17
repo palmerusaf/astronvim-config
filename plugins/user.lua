@@ -38,4 +38,24 @@ return {
       { "-", "<cmd>Oil<cr>", mode = { "n" }, desc = "Open parent directory" },
     },
   },
+  {
+    "Wansmer/treesj",
+    keys = { "<leader>m", "<leader>j", "<leader>S" },
+    opts = {
+      max_join_length = 240,
+      max_split_length = 240,
+    },
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    config = function()
+      require("treesj").setup {--[[ your config ]]
+      }
+    end,
+  },
+  {
+    "danymat/neogen",
+    opts = {},
+    keys = {
+      { "<leader>lj", "<cmd>Neogen<cr>", mode = { "n" }, desc = "Create JsDoc" },
+    },
+  },
 }
