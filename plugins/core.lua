@@ -26,11 +26,12 @@ return {
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {
     "L3MON4D3/LuaSnip",
-    -- opts = {
-    --   require("luasnip.loaders.from_vscode").lazy_load(),
-    -- },
     config = function(plugin, opts) require("luasnip.loaders.from_vscode").lazy_load() end,
-    dependencies = { "rafamadriz/friendly-snippets", "andys8/vscode-jest-snippets", "xabikos/vscode-javascript" },
+    dependencies = {
+      "rafamadriz/friendly-snippets",
+      "dsznajder/vscode-es7-javascript-react-snippets",
+      "xabikos/vscode-javascript",
+    },
   },
   -- {
   --   "windwp/nvim-autopairs",
