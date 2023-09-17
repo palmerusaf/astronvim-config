@@ -12,7 +12,6 @@ return {
         "cssls",
         "bashls",
         "jsonls",
-        "marksman",
         "tailwindcss",
         "tsserver",
       })
