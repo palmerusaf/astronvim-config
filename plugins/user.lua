@@ -58,4 +58,10 @@ return {
       { "<leader>lj", "<cmd>Neogen<cr>", mode = { "n" }, desc = "Create JsDoc" },
     },
   },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
