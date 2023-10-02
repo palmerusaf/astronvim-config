@@ -6,8 +6,11 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.motion.leap-nvim" },
-  { import = "astrocommunity.motion.flit-nvim" },
+
+  -- disable leap and flit in favor of flash
+  -- { import = "astrocommunity.motion.leap-nvim" },
+  -- { import = "astrocommunity.motion.flit-nvim" },
+
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
