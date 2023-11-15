@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.pack.markdown" },
   -- { import = "astrocommunity.editing-support.refactoring-nvim" },
   -- { import = "astrocommunity.editing-support.treej" },
