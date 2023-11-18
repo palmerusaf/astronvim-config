@@ -20,8 +20,12 @@ return {
   -- { "andys8/vscode-jest-snippets" },
   {
     "monsonjeremy/onedark.nvim",
-    branch = "treesitter",
-    opts = {},
+    -- branch = "treesitter",
+    opts = {
+      colors = {
+        bg = "#0a0c10",
+      },
+    },
   },
   {
     "delphinus/vim-firestore",
