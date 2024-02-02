@@ -70,6 +70,16 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- Set up custom filetypes
+    vim.filetype.add {
+      extension = {
+        hbs = "html",
+      },
+    }
+    vim.filetype.add {
+      extension = {
+        fxml = "xml",
+      },
+    }
     -- vim.filetype.add {
     --   extension = {
     --     foo = "fooscript",
