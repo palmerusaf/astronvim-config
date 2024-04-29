@@ -28,6 +28,11 @@ return {
     },
   },
   {
+    "pmizio/typescript-tools.nvim",
+    dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+    opts = {},
+  },
+  {
     "delphinus/vim-firestore",
     event = "BufEnter *.rules",
   },
