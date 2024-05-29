@@ -33,6 +33,20 @@ return {
     opts = {},
   },
   {
+    "rcarriga/nvim-notify",
+    opts = {
+      background_colour = "NotifyBackground",
+      fps = 30,
+      level = 2,
+      minimum_width = 50,
+      max_width = 200,
+      render = "compact",
+      stages = "static",
+      timeout = 2000,
+      top_down = true,
+    },
+  },
+  {
     "delphinus/vim-firestore",
     event = "BufEnter *.rules",
   },
