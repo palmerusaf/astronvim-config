@@ -21,7 +21,7 @@ sudo rm -r ~/.local/share/nvim
 #### Clone AstroNvim
 
 ```shell
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+git clone git@github.com:palmerusaf/AstroNvim ~/.config/nvim
 ```
 
 #### Create a new user repository from this template
